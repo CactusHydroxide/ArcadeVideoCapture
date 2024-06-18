@@ -2,6 +2,12 @@
 Project to capture the vi
 deo output of arcade cabinets to record gameplay.
 
+## Quick Links
+- [Goal](#goal)
+- [Considerations](#considerations)
+- [Plan](#plan)
+- [Documentation](#documentation)
+
 # Goal
 
 The goal of this project is to produce a system that is able to record the video and audio output of a Taiko No Tatsujin Nijiro Edtition arcade cabinet. 
@@ -28,11 +34,23 @@ SSH will have to be enabled for set up and maintanance of the system. It will be
 
 # Todo
 
-- [ ] Write script to manage streaming video to local network
+- [x] Write script to manage streaming video to local network
 - [ ] Write script to turn on turn out hotspot and create wireless LAN
-- [ ] Write ENV for per device set up
+- [x] Write ENV for per device set up
 - [ ] Enable and document SSH Setup
 - [ ] Document set up process for video streaming
 - [ ] Document how-to-use guide.
 
-# Documentation 
+# Documentation
+ 
+## Setup Guide
+
+*Tested on Ubuntu 22.04.*
+
+Dependencies:
+Python 
+[mjpeg streamer](https://pypi.org/project/mjpeg-streamer/) 
+
+1. Ensure all dependencies above are installed
+2. Git clone this repository 
+3. 
